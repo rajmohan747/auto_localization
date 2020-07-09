@@ -1,0 +1,5 @@
+<launch>
+  <!-- Controller -->
+  <node pkg="controller" type="trajectory_controller" respawn="false" name="trajectory_controller" output="screen">
+  </node>
+</launch>
